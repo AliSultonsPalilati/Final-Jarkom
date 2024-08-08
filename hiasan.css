@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url("background.jpeg");
+    background-size: 550px;
+}
+
+input, button {
+    padding: 15px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+
+.weather-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    width: calc(30% - 50px); /* 3 kotak per baris dengan jarak */
+    box-sizing: border-box;
+    
+
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+}
+h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.container {
+    padding: 25px;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: rgba(155, 155, 155, 0.8);
+
+}
